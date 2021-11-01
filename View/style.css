@@ -1,0 +1,48 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+body {
+    color:#ffffff;
+    font-size: 21px;
+    background-image: url("assets/556930-espaco-com-o-infinito-do-espaco-do-universo-de-estrelas-e-o-fundo-da-luz-das-estrelas-galaxia-e-planetas-do-ceu-noturno-estrelado-no-teste-padrao-do-cosmos-vetor.jpg");
+}
+
+main{
+    background-color: rgba(148,187,233, 0.5);
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 1%;
+}
+
+#title {
+    text-align: center;
+}
+
+#launch-button {
+    border-radius: 3px;
+}
+
+#launch-button {
+    font-size:24px;
+  font-family:Trebuchet MS;
+  width:166px;
+  height:54px;
+  border-width:0px;
+  color:#fff;
+  border-color:rgba(91, 91, 112, 1);
+  border-top-left-radius:42px;
+  border-top-right-radius:42px;
+  border-bottom-left-radius:42px;
+  border-bottom-right-radius:42px;
+  box-shadow:inset 0px 0px 0px 2px rgba(150, 171, 231, 1);
+  text-shadow:inset 1px 1px 0px rgba(3, 3, 3, 1);
+  background:linear-gradient(rgb(120, 146, 194), #476e9e);
+}
+
+#launch-button:hover {
+    background: linear-gradient(#476e9e, rgb(120, 146, 194));
+}

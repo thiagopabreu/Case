@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/api.png">
+</head>
+<body>
+    <header>
+        <h1 id="title">API de consulta da API SpaceX</h1>
+    </header>
+    <main>
+        <div class="container-main">
+            <p>O que você gostaria de solicitar?</p><br>
+            <form class="container-input">
+                <input type="radio" name="launchs" id="next-launch" value="next" >
+                <label for="" >Próximo Lançamento</label> <p>
+                <input type="radio" name="launchs" id="last-launch" value="last">
+                <label for="">Ultimo Lançamento</label> <p>
+                <input type="radio" name="launchs" id="upcoming-launch" value="upcoming">
+                <label for="">Proximos Lançamentos</label> <p>
+                <input type="radio" name="launchs" id="latest-launch" value="lastest">
+                <label for="">Últimos Lançamentos</label> <p>
+                <p></p><br>
+                <input type="submit" name="" id="launch-button">
+            </div>
+        </div>
+        <div class="content">
+            <p id="p1"></p>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
