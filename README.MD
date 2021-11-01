@@ -1,11 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Case" />
-
-  &#xa0;
-
-  <!-- <a href="https://case.netlify.app">Demo</a> -->
-</div>
-
 <h1 align="center">Case</h1>
 
 <p align="center">
